@@ -1,7 +1,7 @@
 import React from "react";
-import axios from "axios"
+import axios from "axios";
 
-class Listbeer extends React.Component {
+class Listing extends React.Component {
 
     state = {
       data_beer: []
@@ -9,7 +9,6 @@ class Listbeer extends React.Component {
 
   componentWillMount(){
     this.getbeer();
-     // this.setState({data: this.getbeer()})
   }
 
   getbeer = () => {
@@ -18,7 +17,7 @@ class Listbeer extends React.Component {
       method: 'get',
       
     }).then(data => {
-     // console.log(data.data.data) 
+      // console.log(data.data.data) 
       this.setState({data_beer: data.data.data})
 
       }
@@ -40,11 +39,12 @@ class Listbeer extends React.Component {
   }
 
   renderListing = (data) => data.map((element) => {
+      const link = `/details/${element.id}`
       return (
-        <li><a href="" target="_blank">{element.name}</a></li>
+        <li><a href={link} target="_blank" >{element.name}</a></li>
       )
   })
 
 }
 
-export default Listbeer;
+export default Listing;

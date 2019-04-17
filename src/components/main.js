@@ -1,11 +1,13 @@
 import React from "react";
-import Listbeer from './Listbeer';
+import Listing from './Listing';
+import Details from './Details';
 import {Switch,Route} from 'react-router-dom';
 
 
 const Main =() => (
 	<Switch>
-	<Route exact path="/listbeer" component={Listbeer} />
+	<Route exact path="/" component={Listing} />
+	<Route path="/details/:id" component={Details} />
 	</Switch>
 )
 

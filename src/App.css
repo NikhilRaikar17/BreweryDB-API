@@ -31,3 +31,10 @@
     transform: rotate(360deg);
   }
 }
+
+.brewery-img{
+  width: auto;
+  height: 100px;
+  margin-bottom:15px;
+}
+

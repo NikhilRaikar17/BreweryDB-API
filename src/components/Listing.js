@@ -7,7 +7,7 @@ class Listing extends React.Component {
       data_beer: []
     }
 
-  componentWillMount(){
+  componentDidMount(){
     this.getbeer();
   }
 
@@ -29,11 +29,22 @@ class Listing extends React.Component {
     const data = this.state.data_beer;
 
     return(
-    <div>  
-        {this.state.data_beer.length> 0 && 
-          this.renderListing(data)
-        }
-        </div>
+    <div class="container"> 
+    <table class="table table-hover">
+    <thead>
+    <tr>
+      <th scope="col">Beer Name</th>
+      <th scope="col">Beer-abv</th>
+      <th scope="col">Beer-ibu</th>
+    </tr>
+    </thead>
+    <tbody>
+              
+     {this.renderListing(data)}
+    
+    </tbody>
+    </table>
+    </div>
 
     )
   }
@@ -41,7 +52,11 @@ class Listing extends React.Component {
   renderListing = (data) => data.map((element) => {
       const link = `/details/${element.id}`
       return (
-        <li><a href={link} target="_blank" >{element.name}</a></li>
+      <tr>
+        <th scope="row"><a href={link} target="_blank" style={{marginRight:5}}>{element.name}</a></th>
+        <td>{element.abv}</td>
+        <td>{element.ibu}</td>
+      </tr>               
       )
   })
 

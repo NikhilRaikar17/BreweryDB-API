@@ -8,7 +8,7 @@ class Details extends React.Component {
       data_beer_details: []
     }
   
-  componentWillMount(){
+  componentDidMount(){
     this.getbeerdetails();
   }
 
@@ -32,8 +32,12 @@ class Details extends React.Component {
 		const data = this.state.data_beer_details;
 		return(
     	<div>  
-        {this.state.data_beer_details.name && <p> {this.state.data_beer_details.name} </p>
-        }
+        <p> Name: {this.state.data_beer_details.name} </p>
+        <p> Abv: {this.state.data_beer_details.abv} </p>
+        <p>Ibu: {this.state.data_beer_details.ibu} </p>
+        <p>organic: {this.state.data_beer_details.isOrganic}</p>
+        <p> year: {this.state.data_beer_details.year}</p>
+        <p> status: {this.state.data_beer_details.status} </p>
         </div>
 
 	  )

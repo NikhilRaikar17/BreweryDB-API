@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import $ from 'jquery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Listing extends React.Component {
@@ -14,12 +13,11 @@ class Listing extends React.Component {
   }
 
   getbeer = () => {
-    axios({
-      url: 'https://sandbox-api.brewerydb.com/v2/beers/?key=36a9fd1572ee14caebcaf7834eda6905',
-      method: 'get',
-      
-    }).then(data => {
-      this.setState({data_beer: data.data.data})
+    fetch('/data')
+    .then(res => res.json())
+    .then(data => {
+      console.log(data.data)
+      this.setState({data_beer: data.data})
       }
     )
 
@@ -27,7 +25,6 @@ class Listing extends React.Component {
 
   render(){
     const data = this.state.data_beer;
-
     return(
     <div className="container-fluid"> 
     <div className="text-center" style={{}}>
@@ -42,7 +39,7 @@ class Listing extends React.Component {
       <th scope="col">Beer-ibu</th>
     </tr>
     </thead>
-    <tbody>              
+    <tbody>          
      {this.renderListing(data)}
     </tbody>
     </table>

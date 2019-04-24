@@ -11,15 +11,12 @@ class Details extends React.Component {
   }
 
   getbeerdetails = () => {  	
-  	const id = this.props.match.params.id;
-    axios({
-      url: `https://sandbox-api.brewerydb.com/v2/beer/${id}?key=36a9fd1572ee14caebcaf7834eda6905`,
-      method: 'get',
-      
-    }).then(data => {
-      // console.log(data.data.data.name) 
-      this.setState({data_beer_details: data.data.data})
-
+    const id = this.props.match.params.id;
+    fetch(`/details/${id}`)
+    .then(res => res.json())
+    .then(data => {
+      console.log(data.data)
+      this.setState({data_beer_details: data.data})
       }
     )
 

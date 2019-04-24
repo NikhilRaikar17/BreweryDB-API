@@ -2,9 +2,13 @@ import React from "react";
 import Main from "./components/main";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+import { faBeer,faWineBottle,faAngleRight,faBlender,faGlassWhiskey } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faStroopwafel)
+library.add(faBeer)
+library.add(faWineBottle)
+library.add(faAngleRight)
+library.add(faBlender)
+library.add(faGlassWhiskey)
 
 class App extends React.Component{
 

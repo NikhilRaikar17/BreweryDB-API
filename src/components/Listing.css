@@ -1,0 +1,9 @@
+.reference-links{
+    text-decoration: blink;
+    color: #212529;
+    font-family: "Open Sans", serif;
+}
+
+.reference-links:hover{
+    text-decoration-line: none;
+}

@@ -78,7 +78,7 @@ Brewery-app
             |-- Details.css      # Custom css for Details component.
       	    |-- Listing.js       # Custom component which lists all beers.
             |-- Listing.css      # Custom css for Listing Component.
-		    |-- main.js             # Custom routes of the application.
+	|-- main.js             # Custom routes of the application.
       |-- img                    # Image files of the application.   
       |-- app.js                 # Main application file.
       |-- app.css                # Pre-defined CSS of the application.

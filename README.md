@@ -49,7 +49,8 @@ npm i --save @fortawesome/react-fontawesome
 ```
 For ExpressJs
 ```
-npm install -g express-generator
+npm install -g express-generator \
+npm install 
 ```
 ## Installed versions
 * Node - 10.15.3

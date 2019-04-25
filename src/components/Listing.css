@@ -1,7 +1,14 @@
 .reference-links{
     text-decoration: blink;
     color: #212529;
-    font-family: "Open Sans", serif;
+    margin-right: 5; 
+    color: #ed5441
+}
+
+.body{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .reference-links:hover{

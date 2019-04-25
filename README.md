@@ -98,6 +98,11 @@ For the back-end.
 
 ```
 cd brewery-app/react-backend
+npm start 
+
+if any error incured please run the following commands
+
+npm install \
 npm start
 ```
 

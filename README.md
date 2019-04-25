@@ -74,11 +74,11 @@ Brewery-app
             |-- users.js         # custom routes to handle request and responses of API.
   |-- src/                   
       |-- components             # Custom components.
-      	|-- Details.js       # Custom component which displays details of a specific beer.
+      	    |-- Details.js       # Custom component which displays details of a specific beer.
             |-- Details.css      # Custom css for Details component.
-      	|-- Listing.js       # Custom component which lists all beers.
+      	    |-- Listing.js       # Custom component which lists all beers.
             |-- Listing.css      # Custom css for Listing Component.
-		|-- main             # Custom routes of the application.
+		    |-- main             # Custom routes of the application.
       |-- img                    # Image files of the application.   
       |-- app.js                 # Main application file.
       |-- app.css                # Pre-defined CSS of the application.

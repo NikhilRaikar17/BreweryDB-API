@@ -1,12 +1,12 @@
 # BreweryDB
 ## Table Of contents
-* [Introduction](#Introduction)
-* [Requirements](#Requirements)
-* [Instalations](#Installing)
-* [Installed Versions](#Installed-versions)
-* [Project Structure](#Project Structure)
-* [Development and Debugging](#Development-and-Debugging)
-* [Author](##Author)
+* [Introduction](https://gitlab.com/nikhilraikar88/brewerydb-task#introduction)
+* [Requirements](https://gitlab.com/nikhilraikar88/brewerydb-task#requirements)
+* [Instalations](https://gitlab.com/nikhilraikar88/brewerydb-task#installing)
+* [Installed Versions](https://gitlab.com/nikhilraikar88/brewerydb-task#installed-versions)
+* [Project Structure](https://gitlab.com/nikhilraikar88/brewerydb-task#project-structure)
+* [Development and Debugging](https://gitlab.com/nikhilraikar88/brewerydb-task#development-and-debugging)
+* [Author](https://gitlab.com/nikhilraikar88/brewerydb-task#author)
 
 ## Introduction 
 

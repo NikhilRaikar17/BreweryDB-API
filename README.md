@@ -1,4 +1,12 @@
 # BreweryDB
+## Table Of contents
+* [Introduction](##Introduction)
+* [Requirements](##Requirements)
+* [Instalations](##Installing)
+* [Installed Versions](##Installed versions)
+* [Project Structure](##Project Structure)
+* [Development and Debugging](##Development and Debugging)
+* [Author](##Author)
 
 ## Introduction 
 
@@ -59,24 +67,24 @@ The project follows and extends the folder structure as expected by React.
 
 ```
 Brewery-app
-  |-- public                 # Python dependencies.
-  |-- react-backend          # backend of the application
-      |-- routes             # custom routes to handle backend calls.
-            |-- index.js     # custom routes to handle requests and responses of API
-            |-- users.js     # custom routes to handle request and responses of API.
+  |-- public                     # Python dependencies.
+  |-- react-backend              # backend of the application
+      |-- routes                 # custom routes to handle backend calls.
+            |-- index.js         # custom routes to handle requests and responses of API
+            |-- users.js         # custom routes to handle request and responses of API.
   |-- src/                   
-      |-- components         # Custom components.
-      		|-- Details.js   # Custom reactjs component.
-            |-- Details.css  # Custom css for Details component.
-      		|-- Listing.js   # Custom reactjs component.
-            |-- Listing.css  # Custom css for Listing Component.
-      		|-- main         # Custom routes of the application.
-      |-- img                # Image files of the application.   
-      |-- app.js             # Main application file.
-      |-- app.css            # Pre-defined CSS of the application.
-      |-- index.js           
-      |-- index.css 
-      |-- package.json       # Lists all packages installed or dependent.         
+      |-- components             # Custom components.
+      		|-- Details.js       # Custom component which displays details of a specific beer.
+            |-- Details.css      # Custom css for Details component.
+      		|-- Listing.js       # Custom component which lists all beers.
+            |-- Listing.css      # Custom css for Listing Component.
+      		|-- main             # Custom routes of the application.
+      |-- img                    # Image files of the application.   
+      |-- app.js                 # Main application file.
+      |-- app.css                # Pre-defined CSS of the application.
+      |-- index.js               # Boilerplate code.
+      |-- index.css              # Css defined for those boilerplate code.
+      |-- package.json           # Lists all packages installed or dependent to run the application.         
 
 ```
 
@@ -103,4 +111,4 @@ ATTENTION: All the modules have to be properly installed before running the abov
 
 ## Author
 
-* **Nikhil Raikar** - *Initial work* - [NikhilRaikar](https://gitlab.com/nikhilraikar88)
+* **Nikhil Raikar** - [NikhilRaikar](https://gitlab.com/nikhilraikar88)

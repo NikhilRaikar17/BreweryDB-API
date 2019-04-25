@@ -1,11 +1,11 @@
 # BreweryDB
 ## Table Of contents
-* [Introduction](##Introduction)
-* [Requirements](##Requirements)
-* [Instalations](##Installing)
-* [Installed Versions](##Installed versions)
-* [Project Structure](##Project Structure)
-* [Development and Debugging](##Development and Debugging)
+* [Introduction](#Introduction)
+* [Requirements](#Requirements)
+* [Instalations](#Installing)
+* [Installed Versions](#Installed-versions)
+* [Project Structure](#Project Structure)
+* [Development and Debugging](#Development-and-Debugging)
 * [Author](##Author)
 
 ## Introduction 
